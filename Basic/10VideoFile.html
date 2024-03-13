@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video File</title>
+    <link rel="icon" type="image/x-icon" href="watch.jpeg">
+</head>
+<body>
+    <!-- for taking input as a video file
+    accept attribute aceept the type of file-->
+    <lebel for="HTML video">HTML video</lebel>
+    <input type="file" accept=".mp4" id="HTML video">
+
+    <figure>
+          <!-- For adding a video
+        use video tag for controlling we use controls attribute -->
+        <h3>HTML video</h3>
+        <video controls
+          height="160"
+          width="200"
+          autoplay
+          preload="auto">
+        <!-- source tag uses for the source or path -->
+       <source src="htmlvideo.mp4">
+       <!-- inside video tag paragraph tag act as a fallback content, if browser does't play orinal content
+        then it display -->
+            <p>if HTML video is not working, here link</p>
+            <a href="https://www.pexels.com/search/videos/html/">click the link</a>     
+       </video>
+       <figcaption>Online codeVideo</figcaption>
+    </figure>
+   
+   <h3>I am grootE01.mkv</h3>
+   <video controls
+    height="200"
+    width="280"
+    preload>
+    <source src="I.Am.Groot.mkv">
+    <p>Browser does't support video</p>
+    <a href="https://www.youtube.com/" target="_blank">Try something else</a>
+    
+
+    </video>
+
+</body>
+</html>

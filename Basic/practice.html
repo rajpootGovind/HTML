@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,td{
+        border:1.5px solid black;
+        border-collapse:collapse;
+        text-align: center;
+        caption-side:bottom;
+        /* font-size:small; */
+    }
+</style>
+<body>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:aqua">
+            <col span = "" style="background-color:blueviolet">
+        </colgroup>
+        <caption><u>Home-Work</u></caption>
+        <!-- ROW styling -->
+        <tr style="background-color: red;">
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting value</td>
+            <td>After Eating</td>
+        </tr>
+        <tr>
+            <td>Maximum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+            
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 100</td>
+        </tr>
+        <tr>
+            <td>Pre-diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

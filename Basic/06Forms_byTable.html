@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <style>
+    table,td {
+        border:1px black;
+        border-collapse:"collapse";
+    }
+</style> -->
+<body>
+    <!-- WE CAN'T USE ACTION ATTRIBUTE IN TABLE -->
+    <table action = "https://www.bu.edu/lernet/artemis/years/2020/projects/FinalPresentations/HTML/historyofhtml.html">
+        <caption style = "text-align:left">Log-in form using table</caption>
+        <tr>
+            <!-- <lebel> tag is used for LEBELING OF SOMETHING by for attribute -->
+            <td><label for = "id">Username</label></td>
+            <!-- <input>tag is used for input text box, with use of type,id,name attribute -->
+            <td> <input type="text" id="Username"></td>
+
+            <!-- for creating radio button -->
+            <td> <input type="radio"></td>
+        </tr>
+        <tr>
+            <td><lebel for="password">Password</lebel></td>
+            <td><input type="password" password="password"></td>
+            <td><input type ="radio"></td>
+        </tr>
+        <tr>
+            <!-- used for creating checkbox button -->
+            <td><input type = "checkbox"></td>
+            <!-- used to create ACTION button -->
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+         
+    </table>
+    <!-- another way of creating ACTION button -->
+        <td><button>Next</button></td>
+        <!-- WE CAN'T USE ACTION BUTTON, WHEN WE CREATING FORM BY USING TABLE -->
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<!-- CSS -->
+<style>
+  table,td,th  {border:1px solid black;
+    border-collapse: collapse;
+   }
+</style>
+
+<body>
+<!-- WE CREATE TABLE BY USING <table> tag -->
+    <table>
+
+        <caption style = "text-align:left"><i><u>Total Savings</u></i></caption><!--For adding caption on table-->
+<!-- thead tag contain table headings  -->
+        <thead>
+            <tr>
+                <th>  Months  </th> <!--For bold head we <th> in place of <td>-->
+                <th>  Savings  </th>
+            </tr>
+        </thead>
+
+        <!-- tbody contain actual data of table -->
+        <tbody>
+            <tr>
+                <td> Jan </td>
+                <td> 240 </td>
+            </tr>
+            <tr>
+                <td> Feb </td>
+                <td> 400 </td>
+            </tr>
+            <tr>
+                <td> March </td>
+                <td> 500 </td>
+                <!-- <td>22</td> -->
+            </tr>
+        </tbody>
+
+        <!-- tfoot contain summary -->
+        <tfoot>
+            <tr>
+                <td> Total </td>
+                <td> 1140 </td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <!--tr-TABLE ROW, td-TABLE DATA  -->
+</body>
+</html>
